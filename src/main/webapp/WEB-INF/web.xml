@@ -1,0 +1,26 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+
+    <servlet>
+        <servlet-class>com.corsosiam.CatalogoServlet</servlet-class>
+        <servlet-name>CatalogoServlet</servlet-name>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CatalogoServlet</servlet-name>
+        <url-pattern>/catalogo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-class>com.corsosiam.CarrelloServlet</servlet-class>
+        <servlet-name>CarrelloServlet</servlet-name>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarrelloServlet</servlet-name>
+        <url-pattern>/carrello</url-pattern>
+    </servlet-mapping>
+
+
+
+
+</web-app>

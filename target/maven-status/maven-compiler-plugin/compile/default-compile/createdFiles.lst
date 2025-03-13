@@ -1,0 +1,7 @@
+com\corsosiam\services\CarrelloBI.class
+com\corsosiam\services\MongoDBConnector.class
+com\corsosiam\CatalogoServlet.class
+com\corsosiam\services\CatalogoBI.class
+com\corsosiam\entities\Articolo.class
+com\corsosiam\CarrelloServlet.class
+com\corsosiam\entities\Profumo.class
