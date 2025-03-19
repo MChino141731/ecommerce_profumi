@@ -14,16 +14,16 @@ import="java.io.*, corsosiam.*, corsosiam.entities.*" %>
         <h1>Carrello</h1>
         <table>
             <tr>
-                <th>Marca</th>
-                <th>Modello</th>
+                <th>Brand</th>
+                <th>Nome</th>
                 <th>Prezzo</th>
                 <th>Quantita</th>
             </tr>
             <tbody>
                 <c:forEach var="articolo" items="${carrello}" varStatus="loop">
                 <tr>
-                    <td>${articolo.prodotto.marca}</td>
-                    <td>${articolo.prodotto.modello}</td>
+                    <td>${articolo.prodotto.brand}</td>
+                    <td>${articolo.prodotto.nome}</td>
                     <td>${articolo.prodotto.prezzo}</td>
                     <td>${articolo.qta}</td>
                 </tr>
