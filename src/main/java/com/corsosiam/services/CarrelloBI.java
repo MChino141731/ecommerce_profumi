@@ -82,7 +82,7 @@ public class CarrelloBI {
     {
         MongoDBConnector mongodb = new MongoDBConnector();
         mongodb.setConnection();
-        mongodb.setDatabase("ecommerce");
+        mongodb.setDatabase("ecommerce_profumi");
 
         MongoCollection<Document> documents = mongodb.load("carrello");
         return documents;

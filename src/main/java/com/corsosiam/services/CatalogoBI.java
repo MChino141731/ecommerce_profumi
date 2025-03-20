@@ -49,9 +49,9 @@ public class CatalogoBI {
     private  MongoCollection<Document> getCollection() {
         MongoDBConnector mongodb = new MongoDBConnector();
         mongodb.setConnection();
-        mongodb.setDatabase("ecommerce");
+        mongodb.setDatabase("ecommerce_profumi");
 
-        MongoCollection<Document> documents = mongodb.load("catalogo");
+        MongoCollection<Document> documents = mongodb.load("profumi");
         return documents;
     }
 
