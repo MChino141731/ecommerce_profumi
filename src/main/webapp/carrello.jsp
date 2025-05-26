@@ -18,7 +18,6 @@ import="java.io.*, corsosiam.*, corsosiam.entities.*" %>
                 <th>Nome</th>
                 <th>Prezzo</th>
                 <th>Quantita</th>
-                <th>totale</th>
             </tr>
             <tbody>
                 <c:forEach var="articolo" items="${carrello}" varStatus="loop">
